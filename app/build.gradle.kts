@@ -3,7 +3,9 @@ plugins {
 }
 
 android {
-
+    buildFeatures {
+        viewBinding = true
+    }
     namespace = "com.vicoel.appcalculator"
     compileSdk {
         version = release(36) {

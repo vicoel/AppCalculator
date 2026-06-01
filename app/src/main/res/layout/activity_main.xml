@@ -18,6 +18,7 @@
         android:padding="20dp">
 
         <TextView
+            tools:ignore="SpeakableTextPresentCheck"
             android:id="@+id/workingsTV"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -35,12 +36,13 @@
 
 
         <TextView
+            tools:ignore="SpeakableTextPresentCheck"
             android:id="@+id/resultsTV"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:lines="1"
             android:maxLines="1"
-            android:text="TextView"
+            android:text=" "
             android:textAlignment="textEnd"
             android:textColor="@color/white"
             android:textSize="40sp"
@@ -55,17 +57,18 @@
 
 
         <Button
+            android:id="@+id/btnAc"
             style="@style/buttonNumber"
             android:gravity="center"
-            android:onClick="allClearAction"
             android:text="AC"
             android:textColor="@color/red" />
+
         <Button
+            android:id="@+id/btnBSpace"
             style="@style/buttonNumber"
+            android:gravity="center"
             android:text="⌫"
-            android:textColor="@color/red"
-            android:onClick="backSpaceAction"
-            android:gravity="center"/>
+            android:textColor="@color/red" />
 
         <Button
             style="@style/buttonNumber"
@@ -73,6 +76,7 @@
             android:text=""
             tools:ignore="SpeakableTextPresentCheck" />
         <Button
+            android:id="@+id/btnDvd"
             style="@style/buttonOperator"
             android:text="/"
             android:gravity="center"/>
@@ -84,18 +88,22 @@
 
 
         <Button
+            android:id="@+id/btn7"
             style="@style/buttonNumber"
             android:text="7"
             android:gravity="center"/>
         <Button
+            android:id="@+id/btn8"
             style="@style/buttonNumber"
             android:text="8"
             android:gravity="center"/>
         <Button
+            android:id="@+id/btn9"
             style="@style/buttonNumber"
             android:text="9"
             android:gravity="center"/>
         <Button
+            android:id="@+id/btnMtp"
             style="@style/buttonOperator"
             android:text="x"
             android:gravity="center"/>
@@ -107,18 +115,22 @@
 
 
         <Button
+            android:id="@+id/btn4"
             style="@style/buttonNumber"
             android:text="4"
             android:gravity="center"/>
         <Button
+            android:id="@+id/btn5"
             style="@style/buttonNumber"
             android:text="5"
             android:gravity="center"/>
         <Button
+            android:id="@+id/btn6"
             style="@style/buttonNumber"
             android:text="6"
             android:gravity="center"/>
         <Button
+            android:id="@+id/btnMns"
             style="@style/buttonOperator"
             android:text="-"
             android:gravity="center"/>
@@ -130,18 +142,22 @@
 
 
         <Button
+            android:id="@+id/btn1"
             style="@style/buttonNumber"
             android:text="1"
             android:gravity="center"/>
         <Button
+            android:id="@+id/btn2"
             style="@style/buttonNumber"
             android:text="2"
             android:gravity="center"/>
         <Button
+            android:id="@+id/btn3"
             style="@style/buttonNumber"
             android:text="3"
             android:gravity="center"/>
         <Button
+            android:id="@+id/btnPls"
             style="@style/buttonOperator"
             android:text="+"
             android:gravity="center"/>
@@ -153,20 +169,22 @@
 
 
         <Button
+            android:id="@+id/btnPnt"
             style="@style/buttonNumber"
             android:text="."
             android:gravity="center"/>
         <Button
+            android:id="@+id/btn0"
             style="@style/buttonNumber"
             android:text="0"
             android:gravity="center"/>
         <Button
+            android:id="@+id/btnEqls"
             style="@style/buttonNumber"
             android:text="="
             android:layout_weight="2"
             android:background="@color/orange"
             android:textSize="40sp"
-            android:onClick="equalsAction"
             android:gravity="center"/>
 
 
